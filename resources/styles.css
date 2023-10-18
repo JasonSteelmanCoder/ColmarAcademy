@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    min-height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100vw;
+}
+
+img {
+    min-width: 0;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    background-color: #dfdfdf;
+}
+
+#hero article{
+    margin: 1rem;
+}
+
+h1 {
+    font-size: 2.2rem;
+    padding: 5vw 0;
+}
+
+p {
+    margin: 0.8rem 0;
+}
+
+#call-to-action {
+    border-radius: 0;
+    border: none;
+    margin: 5vw 0;
+    width: 100%;
+    height: 2.5em;
+    color: #ffffff;
+    font-weight: bolder;
+    background-color: gray;
+}
+
+on-campus {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    min-width: 0;
+    flex-shrink: 1;
+    display: flex;
+}
+
+article {
+    margin: 2.5rem 1rem;
+}
+
+#start-learning {
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#start-learning button {
+    border-radius: 0;
+    border: none;
+    margin: 0.25rem;
+    height: 3rem;
+    font-size: 1rem;
+    text-align: left;
+    padding: 0 1.2rem;
+    font-weight: 500;
+}
+
+#thesis-exhibits {
+    margin: 1rem 0;
+}
+
+#thesis-exhibits h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+video {
+    min-width: 0;
+    margin: 1rem 0;
+}
+
+footer {
+    min-height: 4rem;
+    padding: 1rem;
+}
