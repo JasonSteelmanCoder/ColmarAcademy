@@ -135,4 +135,61 @@ footer {
     #hero article {
         max-width: 352px;
     }
+
+    #on-campus {
+        flex-direction: row;
+    }
+
+    #testimonial {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1vw;
+    }
+
+    #testimonial  .image-container{
+        max-width: 60vw;
+    }
+
+    #about-campus {
+        max-width: 40vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .horizontalizer {
+        display: flex;
+    }
+
+    .horizontalizer article {
+        margin: 0;
+        max-width: 65%;
+    }
+
+    .horizontalizer .image-container {
+        padding: 1.5rem 0;
+        max-width: 30%;
+        overflow: hidden;
+    }
+
+    .horizontalizer p, a {
+        margin: 0;
+        font-size: 0.75rem;
+    }
+
+    .horizontalizer h2 {
+        font-size: 1.125rem;
+    }
+
+    .horizontalizer p {
+        max-width: 80%;
+    }
+
+    video {
+        max-width: 80vw;
+    }
+
+    #thesis-exibits h2 {
+        max-width: 80vw;
+    }
 }
