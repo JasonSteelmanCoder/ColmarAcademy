@@ -123,6 +123,7 @@ footer {
     min-height: 4rem;
     padding: 1rem;
     color: #3d3b3b;
+    border-top: 1px solid darkgray;
 }
 
 
@@ -186,6 +187,9 @@ footer {
     }
     /* End about-campus section */
 
+    #start-learning {
+        background-color: lightgray;
+    }
 
     #cards-container {
         max-width: 100vw;
@@ -193,8 +197,30 @@ footer {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .course-card {
+        background-color: white;
+        margin: 1rem;
+    }
+
     #cards-container img {
         max-width: 100%;
+    }
+
+    #cards-container article {
+        margin: 0;
+    }
+
+    #cards-container p, #cards-container h3, #cards-container h4 {
+        text-align: left;
+        margin: 0.5rem;
+    }
+
+    #cards-container h4 {
+        font-weight: 200;
+    }
+
+    #thesis-exhibits {
+        background-color: white;
     }
 
     #theses-container {
