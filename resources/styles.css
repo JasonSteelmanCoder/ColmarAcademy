@@ -125,7 +125,13 @@ footer {
     }
 
     .only-big-screens {
+        display: block;
+    }
+
+    nav.only-big-screens {
         display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
     #hero {
@@ -180,11 +186,33 @@ footer {
         max-width: 100%;
     }
 
-    video {
-        max-width: 80vw;
+    #theses-container {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        max-width: 100vw;
     }
 
-    #thesis-exibits h2 {
-        max-width: 80vw;
+    #main-thesis {
+        max-width: 55vw;
+    }
+
+    #other-theses {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-auto-rows: min-content;
+        max-width: 35vw;
+        margin-top: 2.5rem;
+    }
+
+    #other-theses .image-container {
+        max-height: 30vh;
+        padding: 0.5rem 0;
+    }
+
+    .thesis-blurb {
+        max-height: 30vh;
+        min-height: 8rem;
+        text-align: left;
+        padding: 0.25rem;
     }
 }
