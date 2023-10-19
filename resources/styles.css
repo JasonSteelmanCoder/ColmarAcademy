@@ -215,4 +215,17 @@ footer {
         text-align: left;
         padding: 0.25rem;
     }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer #copyright {
+        flex-grow: 1;
+    }
+
+    footer .only-big-screens {
+        margin-right: 1rem;
+    }
 }
