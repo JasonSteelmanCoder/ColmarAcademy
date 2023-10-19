@@ -75,6 +75,13 @@ p {
     flex-direction: column;
 }
 
+.nav-node {
+    height: 5rem;
+    margin-top: -5rem;
+    visibility: hidden;
+    pointer-events: none;
+}
+
 .image-container {
     min-width: 0;
     display: flex;
@@ -213,6 +220,10 @@ footer {
     #cards-container p, #cards-container h3, #cards-container h4 {
         text-align: left;
         margin: 0.5rem;
+    }
+
+    #cards-container p, #cards-container h4 {
+        font-size: 0.85rem;
     }
 
     #cards-container h4 {
