@@ -23,6 +23,17 @@ nav {
     width: 100vw;
 }
 
+#big-screen-logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 1rem;
+}
+
+.big-screen-nav {
+    margin: 1rem;
+}
+
 img {
     min-width: 0;
     height: auto;
