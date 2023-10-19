@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    /* border: 1px solid red; */
 }
 
 html {
@@ -65,7 +66,6 @@ p {
 
 .image-container {
     min-width: 0;
-    flex-shrink: 1;
     display: flex;
 }
 
@@ -114,6 +114,10 @@ footer {
     color: #3d3b3b;
 }
 
+
+
+
+
 @media screen and (min-width: 630px) {
 
     .only-small-screens {
@@ -147,42 +151,33 @@ footer {
     }
 
     #testimonial  .image-container{
-        max-width: 60vw;
+        max-width: 55vw;
     }
 
+
+    /* Start about campus section */
     #about-campus {
-        max-width: 40vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-
-    .horizontalizer {
-        display: flex;
-    }
-
-    .horizontalizer article {
-        margin: 0;
-        max-width: 65%;
-    }
-
-    .horizontalizer .image-container {
-        padding: 1.5rem 0;
-        max-width: 30%;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
         overflow: hidden;
+        padding-left: 1vw;
+        border-left: 1pt solid #a9a9a9;
     }
 
-    .horizontalizer p, a {
-        margin: 0;
-        font-size: 0.75rem;
+    #about-campus img {
+        padding: 2rem 0;
+    }
+    /* End about-campus section */
+
+
+    #cards-container {
+        max-width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .horizontalizer h2 {
-        font-size: 1.125rem;
-    }
-
-    .horizontalizer p {
-        max-width: 80%;
+    #cards-container img {
+        max-width: 100%;
     }
 
     video {
