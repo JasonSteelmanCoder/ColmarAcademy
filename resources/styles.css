@@ -123,7 +123,7 @@ article {
     text-align: center;
 }
 
-#start-learning button {
+.course-button {
     border-radius: 0;
     border: none;
     margin: 0.25rem;
