@@ -206,8 +206,7 @@ footer {
     /* Start about campus section */
     #about-campus {
         display: grid;
-        grid-template-columns: 1fr 2fr;
-        overflow: hidden;
+        grid-template-columns: 5fr 7fr;
         padding-left: 1vw;
         border-left: 1pt solid #a9a9a9;
     }
@@ -215,6 +214,24 @@ footer {
     #about-campus img {
         padding: 2rem 0;
     }
+
+    .side-image-container {
+        background-position: center;
+        margin: 2.5rem 0;
+    }
+
+    #first {
+        background-image: url("./capstone_colmar_assets/images/information-orientation.jpg");
+    }
+
+    #second {
+        background-image: url("./capstone_colmar_assets/images/information-campus.jpg")
+    }
+
+    #third {
+        background-image: url("./capstone_colmar_assets/images/information-guest-lecture.jpg");
+    }
+
     /* End about-campus section */
 
     #start-learning {
