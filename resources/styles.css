@@ -279,6 +279,18 @@ footer {
     .course-card {
         background-color: white;
         margin: 1rem;
+        text-decoration: none;
+        color: black;
+        box-shadow: 1px 1px #838181 ;
+    }
+
+    .course-card:hover {
+        box-shadow: 2px 2px #838181 ;
+    }
+
+    .course-card:active {
+        box-shadow: -2px -2px #838181;
+
     }
 
     #cards-container img {
