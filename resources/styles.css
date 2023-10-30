@@ -140,10 +140,12 @@ p {
     background-image: url("./capstone_colmar_assets/images/information-guest-lecture-mobile.jpg");
 }
 
-
 article {
     margin: 2.5rem 1rem;
 }
+
+
+/* Start learning section */
 
 #start-learning {
     border-top: 1px solid #dfdfdf;
@@ -166,6 +168,9 @@ article {
     font-weight: 500;
 }
 
+
+/* Thesis exhibits section */
+
 #thesis-exhibits {
     margin: 1rem 0;
 }
@@ -181,6 +186,9 @@ video {
     margin: 1rem 0;
 }
 
+
+/* Footer */
+
 footer {
     min-height: 4rem;
     padding: 1rem;
@@ -190,9 +198,11 @@ footer {
 
 
 
-
+/* On big screens */
 
 @media screen and (min-width: 630px) {
+
+    /* General (big screens) */
 
     .only-small-screens {
         display: none;
@@ -202,11 +212,15 @@ footer {
         display: block;
     }
 
+    /* Nav bar (big screens) */
+
     nav.only-big-screens {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
+
+    /* Hero section (big screens) */
 
     #hero {
         flex-direction: row;
@@ -219,6 +233,8 @@ footer {
     #hero article {
         max-width: 352px;
     }
+
+    /* On campus section (big screens) */
 
     #on-campus {
         flex-direction: row;
@@ -235,7 +251,7 @@ footer {
     }
 
 
-    /* Start about campus section */
+    /* About campus sub-section */
     #about-campus {
         display: grid;
         grid-template-columns: 5fr 7fr;
@@ -265,7 +281,7 @@ footer {
         background-image: url("./capstone_colmar_assets/images/information-guest-lecture.jpg");
     }
 
-    /* End about-campus section */
+    /* Start learning section (big screens) */
 
     #start-learning {
         background-color: lightgray;
@@ -315,6 +331,8 @@ footer {
         font-weight: 200;
     }
 
+    /* Thesis exhibits section (big screens) */
+
     #thesis-exhibits {
         background-color: white;
     }
@@ -328,6 +346,8 @@ footer {
     #main-thesis {
         max-width: 55vw;
     }
+
+    /* Other theses subsection (big screens) */
 
     #other-theses {
         display: grid;
@@ -348,6 +368,8 @@ footer {
         text-align: left;
         padding: 0.25rem;
     }
+
+    /* Footer (big screens) */
 
     footer {
         display: flex;
